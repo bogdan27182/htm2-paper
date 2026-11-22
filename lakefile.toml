@@ -1,0 +1,11 @@
+name = "cat0_bounds"
+version = "0.1.0"
+defaultTargets = ["Cat0Bounds"]
+
+[[lean_lib]]
+name = "Cat0Bounds"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
